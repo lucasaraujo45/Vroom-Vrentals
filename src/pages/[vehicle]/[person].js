@@ -5,3 +5,5 @@ export default function Person() {
     console.log(router.query);
     return <h2>{router.query.person}'s {router.query.vehicle}</h2>
 }
+
+
